@@ -1,2 +1,4 @@
 # GRUD_PC
-Programa simples de cadastro em C
+
+*Programa simples de cadastro em C*
+
