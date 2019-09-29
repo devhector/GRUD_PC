@@ -97,8 +97,8 @@ if(contador == 0) printf("\n -- ESTOQUE VAZIO -- \n");
 	//system("pause");
 }
 
-void sugestao(automovel *p, int compra, int posicao){
-	int venda = (compra * (1 + LUCROMIN)), escolha;
+void sugestao(automovel *p, int posicao){
+	int venda = (p[posicao].valor_compra * (1 + LUCROMIN)), escolha;
 	printf("\n-- O valor minimo de venda para obter lucro e de R$ %d\n", venda);
 	printf("\t(1) Manter esse valor.");
 	printf("\t(2) Alterar o valor.\n");
@@ -149,7 +149,7 @@ void comprar(automovel *p, int *caixa)
 		getchar();
 	}else{
 		*caixa = *caixa - p[posicao].valor_compra;
-		sugestao(p, p[posicao].valor_compra, posicao);
+		sugestao(p, posicao);
 	}
 
   getchar();
