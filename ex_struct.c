@@ -8,6 +8,10 @@
 
 /*
 
+UNIVERSIDADE FEDERAL DE PELOTAS - UFPEL
+PROGRAMAÇÃO DE COMPUTADORES
+PROF. ALISON ROBERTO
+
 Nesse exercício você implementará um programa de computador para gerenciar a compra e
 venda de veículos por uma empresa. A empresa vai iniciar suas atividades com
 um caixa inicial, comprar e vender veículos para obter lucro (ou prejuízo, afinal nem
